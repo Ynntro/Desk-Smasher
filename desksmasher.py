@@ -4,7 +4,7 @@ import discord
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
-channelDS = client.get_channel(1314127566025785396)
+channelDS = client.get_channel('YOUR COMMANDS CHANNEL HERE')
 
 @client.event
 async def on_ready():
