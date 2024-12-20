@@ -56,7 +56,7 @@ async def on_member_join(member):
     channel = client.get_channel(1314308224555683902)
     embed = discord.Embed(
         title=(f'New member!'),
-        description=(f'Everybody welcome {member.mention}!\nThis server is powered by **DeskSmasher** :sunglasses:')
+        description=(f'Everybody welcome {member.mention}!\n-# This server is powered by **DeskSmasher** :sunglasses:')
     )
     await channel.send(embed=embed)
 
